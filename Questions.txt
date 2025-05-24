@@ -1,0 +1,63 @@
+1- What is the purpose of a Git repository, and how does it help front-end developers manage a project like an HTML/CSS/JS webpage?
+A Git repository tracks changes made to project files over time.
+For front-end developers, it helps by:
+
+Keeping a complete history of changes.
+
+Allowing easy rollback to previous versions in case of bugs.
+
+Supporting collaboration by tracking who made what changes.
+
+Enabling feature testing using branches without affecting the main codebase.
+
+2- Explain the difference between tracked and untracked files in Git, and why might untracked files cause issues in a front-end project?
+Tracked files: Files that Git already knows and monitors after running git add.
+
+Untracked files: New files that Git doesn’t manage yet.
+
+Why it matters:
+
+Untracked files might include temporary, debug, or sensitive data that shouldn't be in the repository.
+
+Forgetting to track important files can lead to them being lost when sharing the project or switching branches.
+
+3- Why is it important to use a file to ignore certain items (e.g., node_modules) in a Git repository, especially for front-end development?
+Using a .gitignore file prevents unnecessary or large files like node_modules from being added to the repository.
+
+Benefits:
+
+Keeps the repository clean and lightweight.
+
+Reduces clutter and improves performance.
+
+Prevents issues with platform-specific or environment-specific files.
+
+4- How does viewing a project’s history benefit a front-end developer when working on multiple versions of a webpage?
+Viewing project history allows a front-end developer to:
+
+Understand what changed, when, and why.
+
+Revert to a stable version if a new change breaks the layout or functionality.
+
+Track improvements or bugs introduced over time.
+
+Collaborate more effectively by seeing each team member's contributions.
+
+5- What is the role of GitHub in relation to a local Git repository, and how does hosting a project on GitHub Pages add value for a front-end developer?
+GitHub hosts your local Git repository online, enabling:
+
+Remote collaboration.
+
+Version control with backup.
+
+Project sharing with other developers or clients.
+
+GitHub Pages allows you to publish and host static websites (HTML/CSS/JS) directly from your repository.
+
+Value for front-end developers:
+
+Quickly showcase portfolio projects.
+
+Share live previews with clients or teammates.
+
+Deploy websites without needing a paid hosting service.
